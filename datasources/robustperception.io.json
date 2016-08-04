@@ -1,0 +1,8 @@
+{
+  "name": "robustperception",
+  "type": "prometheus",
+  "access": "proxy",
+  "url": "http://demo.robustperception.io:9090/",
+  "withCredentials": false,
+  "isDefault": true
+}
