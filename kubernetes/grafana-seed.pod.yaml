@@ -32,4 +32,4 @@ spec:
   - name: git-volume
     gitRepo:
       repository: "https://github.com/rothgar/grafana-seed.git"
-      revision: "demos"
+      revision: "demov1"
