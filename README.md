@@ -50,8 +50,8 @@ If you need more ideas for dashboards you can check out [play.grafana.org](http:
 Default values for the variables are
 
 ```
-DATASOURCE_DIR = /srv/grafana/datasources
-DASHBOARD_DIR  = /srv/grafana/dashboards
+DATASOURCE_DIR = /srv/grafana-seed/datasources
+DASHBOARD_DIR  = /srv/grafana-seed/dashboards
 GRAFANA_URL    = http://grafana:3000
 ```
 

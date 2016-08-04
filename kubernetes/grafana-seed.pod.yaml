@@ -7,9 +7,9 @@ spec:
   - image: alpine:latest
     name: grafana-seed
     command:
-      - "/srv/grafana/seed.sh"
+      - "/srv/grafana-seed/seed.sh"
     volumeMounts:
-    - mountPath: /srv/grafana
+    - mountPath: /srv
       name: git-volume
 #     env:
 #     	- name: PROM_URL

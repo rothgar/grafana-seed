@@ -1,8 +1,8 @@
 #!/bin/sh
 #set -x
 
-DATASOURCE_DIR=${DATASOURCE_DIR:-/srv/grafana/datasources}
-DASHBOARD_DIR=${DASHBOARD_DIR:-/srv/grafana/dashboards}
+DATASOURCE_DIR=${DATASOURCE_DIR:-/srv/grafana-seed/datasources}
+DASHBOARD_DIR=${DASHBOARD_DIR:-/srv/grafana-seed/dashboards}
 GRAFANA_URL=${GRAFANA_URL:-grafana:3000}
 
 command -v curl >/dev/null 2>&1 || apk add --update curl
